@@ -3,9 +3,10 @@ install.packages("languageR")
 library(languageR)
 
 # загружаем датасет
-meta <- data("spanishMeta")
+meta <- spanishMeta
 
 # допишите ваш код ниже
+
 # посчитайте средний год публикации 
 # романов Камило Хосе Селы
 
@@ -16,6 +17,7 @@ meta <- data("spanishMeta")
 
 # извлеките ряды с текстами, 
 #опубликованными до 1980 г.
+
 
 # сохраните этот файл с расширением .R 
 # и добавьте его в ваш репозиторий Github Classroom
