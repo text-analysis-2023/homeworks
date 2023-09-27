@@ -1,4 +1,4 @@
-# скачайте с сайта Британской библиотеки датасет о Гарри Потте
+# скачайте с сайта Британской библиотеки датасет о Гарри Поттере
 my_url <- "https://www.bl.uk/bibliographic/downloads/HarryPotterResearcherFormat_202306_csv.zip"
 dir.create("HP")
 download.file(url = my_url, destfile = "HP/HP.zip")
